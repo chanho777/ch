@@ -1,0 +1,51 @@
+<style>
+
+audio
+
+c1 {
+  color:red;
+font-size: 40px;
+display:block;
+text-align:center;
+padding: 50px;
+text-align: center;
+}
+
+body {background:black; color:#ffff;}
+t1 { border-bottom:3px solid #ffff;
+  display: block;
+  font-size: 60px;
+  text-align: center;
+  padding: 35px;
+}
+
+m1 {
+display: block;
+  border: 5px solid pink;
+
+  padding: 10px;
+}
+@media (max-width:1100px) {
+
+  body {background: #ffff; color:black;
+  t1 {  border-bottom:3px solid black;}
+}
+  }
+
+
+ul {
+  display: inline-block;
+}
+grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+}
+audio controls { autoplay;
+  display: none;
+
+}
+
+</style>
