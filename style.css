@@ -30,8 +30,6 @@ m1 {
 display: block;
   border: 5px solid pink;
   text-align: center;
-
-  padding: 10px;
 }
 @media (max-width:1100px) {
 
