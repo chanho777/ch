@@ -29,6 +29,7 @@ grid12 {
 m1 {
 display: block;
   border: 5px solid pink;
+  text-align: center;
 
   padding: 10px;
 }
