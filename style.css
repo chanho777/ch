@@ -21,6 +21,27 @@ t1 { border-bottom:3px solid #ffff;
   text-align: center;
   padding: 35px;
   font-weight:bold;
+color:powderblue;
+}
+
+t3 { border-bottom:3px solid #ffff;
+  display: inline-block;
+  font-size: 60px;
+  text-align: center;
+  padding: 35px;
+  font-weight:bold;
+color:#FF007F;
+
+
+}
+t2{ border-bottom:3px solid #ffff;
+  display: inline-block;
+  font-size: 60px;
+  text-align: center;
+  padding: 35px;
+  font-weight:bold;
+  color: pink;
+
 }
 grid12 {
   text-align: center;
@@ -56,3 +77,4 @@ audio controls { autoplay;
 }
 
 </style>
+
