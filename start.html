@@ -3,8 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>start</title>
+const images = [
+  "chanho777/ch/img('path/to/image1.jpg')",
+  "chanho777/ch/img('path/to/image1.jpg')",
+  "chanho777/ch/img('path/to/image1.jpg')",
+  // ...
+];
 
   <style>
+    body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.5); /* 반투명한 흰색 배경 */
+}
+
     TT1{
       font-size:50px;
     display:inline-block;
@@ -299,6 +312,32 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
+let currentImageIndex = 0;
+
+function changeBackgroundImage() {
+  document.body.style.backgroundImage = images[currentImageIndex];
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+}
+setInterval(changeBackgroundImage, 5000); // 5000ms = 5s
+
+<script>
+  const images = [
+    "url('path/to/image1.jpg')",
+    "url('path/to/image2.jpg')",
+    "url('path/to/image3.jpg')",
+    // ...
+  ];
+
+  let currentImageIndex = 0;
+
+  function changeBackgroundImage() {
+    document.body.style.backgroundImage = images[currentImageIndex];
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+  }
+
+  setInterval(changeBackgroundImage, 5000);
+</script>
+
 </script>
 
 
